@@ -1,0 +1,296 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+body{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+    
+}
+
+
+div.content{
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+div.card{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    height: 590px;
+    background: white;
+    width:350px;
+    -webkit-border-bottom-right-radius: 20px;
+-webkit-border-bottom-left-radius: 20px;
+-moz-border-radius-bottomright: 20px;
+-moz-border-radius-bottomleft: 20px;
+border-bottom-right-radius: 20px;
+border-bottom-left-radius: 20px;
+    
+}
+div.middle{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:hsl(225, 100%, 98%);
+    width: 320px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 20px;
+
+}
+
+div.price{
+    display: flex;
+    flex-flow: column;
+}
+
+h2{
+    margin-bottom: -5px;
+    font-size: 16px;
+    margin-left: -45px;
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+h1{
+    font-weight:900;
+    color: hsl(223, 47%, 23%);
+
+}
+
+
+div.middle p{
+    font-size: 16px;
+    margin-left: -45px;
+    font-family: 500;
+    color: hsl(224, 23%, 55%);
+}
+div.btns{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+button{
+    width: 320px;
+    height: 60px;
+    margin-bottom: 0px;
+    border-radius: 15px;
+    border: 2px white solid;
+    cursor: pointer;
+}
+button.btnone{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+-webkit-box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+-moz-box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+
+border: 2px solid transparent;
+    
+}
+
+button.btntwo{
+    background-color: transparent;
+    border: 2px solid transparent;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 40px;
+    
+}
+
+img.icon{
+    margin-left: -20px;
+}
+a{
+    color: blue;
+    font-weight: 900;
+    font-family: 'Red Hat Display', sans-serif;
+    margin-right: -10px;
+}
+
+div.listen{
+    -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+img.listen{
+
+    -webkit-border-top-left-radius: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-topleft: 20px;
+-moz-border-radius-topright: 20px;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+
+@media screen and (min-width:800px) {
+
+
+
+
+    
+  @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+
+  body{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 100vh;
+      background-color: hsl(225, 100%, 94%);
+      font-family: 'Red Hat Display', sans-serif;
+      
+  }
+  
+  
+  div.content{
+      text-align: center;
+      color: hsl(224, 23%, 55%);
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+  }
+  div.card{
+      display: flex;
+      flex-flow: column;
+      justify-content: space-around;
+      height: 680px;
+      background: white;
+      width:500px;
+      -webkit-border-bottom-right-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
+  -moz-border-radius-bottomright: 20px;
+  -moz-border-radius-bottomleft: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+      
+  }
+  div.middle{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      background-color:hsl(225, 100%, 98%);
+      width: 400px;
+      height: 100px;
+      margin: 0 auto;
+      border-radius: 15px;
+      margin-top: 20px;
+  
+  }
+  
+  div.price{
+      display: flex;
+      flex-flow: column;
+  }
+  
+  h2{
+      margin-bottom: -5px;
+      font-size: 16px;
+      margin-left: -90px;
+      font-weight: 900;
+      color: hsl(223, 47%, 23%);
+  }
+  
+  h1{
+      font-weight:900;
+      color: hsl(223, 47%, 23%);
+  
+  }
+  
+  
+  div.middle p{
+      font-size: 16px;
+      margin-left: -90px;
+      font-family: 500;
+      color: hsl(224, 23%, 55%);
+  }
+  div.btns{
+      display: flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 25px;
+  }
+  
+  button{
+      width: 400px;
+      height: 60px;
+      margin-bottom: 0px;
+      border-radius: 15px;
+      border: 2px white solid;
+      cursor: pointer;
+  }
+  button.btnone{
+      background-color: hsl(245, 75%, 52%);
+      color: white;
+      font-weight: 700;
+      font-size: 16px;
+      box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+  -webkit-box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+  -moz-box-shadow: -5px 10px 69px -15px rgba(0,0,0,0.78);
+  
+  border: 2px solid transparent;
+      
+  }
+  
+  button.btntwo{
+      background-color: transparent;
+      border: 2px solid transparent;
+      color: hsl(224, 23%, 55%);
+      font-weight: 700;
+      font-size: 16px;
+      margin-bottom: 40px;
+      
+  }
+  
+  img.icon{
+      margin-left: -40px;
+  }
+  a{
+      color: blue;
+      font-weight: 900;
+      font-family: 'Red Hat Display', sans-serif;
+      margin-right: -30px;
+  }
+  
+  div.listen{
+      -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  }
+  
+  img.listen{
+  
+      -webkit-border-top-left-radius: 20px;
+  -webkit-border-top-right-radius: 20px;
+  -moz-border-radius-topleft: 20px;
+  -moz-border-radius-topright: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  }
+  
+  
+    
+}
